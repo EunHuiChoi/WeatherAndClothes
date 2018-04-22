@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8C4268208770B000F2379F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4267208770B000F2379F /* AppDelegate.swift */; };
+		CD8C426A208770B000F2379F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4269208770B000F2379F /* ViewController.swift */; };
+		CD8C426D208770B000F2379F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8C426B208770B000F2379F /* Main.storyboard */; };
+		CD8C426F208770B000F2379F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8C426E208770B000F2379F /* Assets.xcassets */; };
+		CD8C4272208770B000F2379F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8C4270208770B000F2379F /* LaunchScreen.storyboard */; };
+		CD8C427E2087712400F2379F /* photo_4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD8C42792087712400F2379F /* photo_4.JPG */; };
+		CD8C427F2087712400F2379F /* photo_0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD8C427A2087712400F2379F /* photo_0.JPG */; };
+		CD8C42802087712400F2379F /* photo_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD8C427B2087712400F2379F /* photo_1.JPG */; };
+		CD8C42812087712400F2379F /* photo_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD8C427C2087712400F2379F /* photo_3.JPG */; };
+		CD8C42822087712400F2379F /* photo_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD8C427D2087712400F2379F /* photo_2.JPG */; };
+		CDBAA51E2089258C004CFA2F /* FirstShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAA51D2089258C004CFA2F /* FirstShowViewController.swift */; };
+		CDBAA5202089281E004CFA2F /* SecondShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAA51F2089281E004CFA2F /* SecondShowViewController.swift */; };
+		CDBAA5242089682B004CFA2F /* first_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDBAA5232089682B004CFA2F /* first_1.JPG */; };
+		CDD40973208A45FA00A4135C /* winter_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD40967208A45F800A4135C /* winter_2.JPG */; };
+		CDD40974208A45FA00A4135C /* winter_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD40968208A45F800A4135C /* winter_3.JPG */; };
+		CDD40975208A45FA00A4135C /* fall_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD40969208A45F900A4135C /* fall_1.JPG */; };
+		CDD40976208A45FA00A4135C /* summer_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD4096A208A45F900A4135C /* summer_3.JPG */; };
+		CDD40977208A45FA00A4135C /* fall_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD4096B208A45F900A4135C /* fall_2.JPG */; };
+		CDD40978208A45FA00A4135C /* spring_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD4096C208A45F900A4135C /* spring_1.JPG */; };
+		CDD40979208A45FA00A4135C /* spring_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD4096D208A45F900A4135C /* spring_2.JPG */; };
+		CDD4097A208A45FA00A4135C /* spring_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD4096E208A45F900A4135C /* spring_3.JPG */; };
+		CDD4097B208A45FA00A4135C /* summer_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD4096F208A45FA00A4135C /* summer_1.JPG */; };
+		CDD4097C208A45FB00A4135C /* summer_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD40970208A45FA00A4135C /* summer_2.JPG */; };
+		CDD4097D208A45FB00A4135C /* fall_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDD40971208A45FA00A4135C /* fall_3.jpg */; };
+		CDD4097E208A45FB00A4135C /* winter_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CDD40972208A45FA00A4135C /* winter_1.JPG */; };
+		CDD40982208A467C00A4135C /* ClothesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD40981208A467C00A4135C /* ClothesViewController.swift */; };
+		CDE9A7A2208C7FE2003448B9 /* weatherClothes.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE9A7A1208C7FE2003448B9 /* weatherClothes.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD8C4264208770B000F2379F /* WeatherAndClothes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAndClothes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8C4267208770B000F2379F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD8C4269208770B000F2379F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD8C426C208770B000F2379F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD8C426E208770B000F2379F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD8C4271208770B000F2379F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD8C4273208770B000F2379F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8C42792087712400F2379F /* photo_4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_4.JPG; sourceTree = "<group>"; };
+		CD8C427A2087712400F2379F /* photo_0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_0.JPG; sourceTree = "<group>"; };
+		CD8C427B2087712400F2379F /* photo_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_1.JPG; sourceTree = "<group>"; };
+		CD8C427C2087712400F2379F /* photo_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_3.JPG; sourceTree = "<group>"; };
+		CD8C427D2087712400F2379F /* photo_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_2.JPG; sourceTree = "<group>"; };
+		CDBAA51D2089258C004CFA2F /* FirstShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstShowViewController.swift; sourceTree = "<group>"; };
+		CDBAA51F2089281E004CFA2F /* SecondShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondShowViewController.swift; sourceTree = "<group>"; };
+		CDBAA5232089682B004CFA2F /* first_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first_1.JPG; sourceTree = "<group>"; };
+		CDD40967208A45F800A4135C /* winter_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winter_2.JPG; sourceTree = "<group>"; };
+		CDD40968208A45F800A4135C /* winter_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winter_3.JPG; sourceTree = "<group>"; };
+		CDD40969208A45F900A4135C /* fall_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fall_1.JPG; sourceTree = "<group>"; };
+		CDD4096A208A45F900A4135C /* summer_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = summer_3.JPG; sourceTree = "<group>"; };
+		CDD4096B208A45F900A4135C /* fall_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fall_2.JPG; sourceTree = "<group>"; };
+		CDD4096C208A45F900A4135C /* spring_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring_1.JPG; sourceTree = "<group>"; };
+		CDD4096D208A45F900A4135C /* spring_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring_2.JPG; sourceTree = "<group>"; };
+		CDD4096E208A45F900A4135C /* spring_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring_3.JPG; sourceTree = "<group>"; };
+		CDD4096F208A45FA00A4135C /* summer_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = summer_1.JPG; sourceTree = "<group>"; };
+		CDD40970208A45FA00A4135C /* summer_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = summer_2.JPG; sourceTree = "<group>"; };
+		CDD40971208A45FA00A4135C /* fall_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fall_3.jpg; sourceTree = "<group>"; };
+		CDD40972208A45FA00A4135C /* winter_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winter_1.JPG; sourceTree = "<group>"; };
+		CDD40981208A467C00A4135C /* ClothesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesViewController.swift; sourceTree = "<group>"; };
+		CDE9A7A1208C7FE2003448B9 /* weatherClothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weatherClothes.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8C4261208770B000F2379F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8C425B208770B000F2379F = {
+			isa = PBXGroup;
+			children = (
+				CD8C4266208770B000F2379F /* WeatherAndClothes */,
+				CD8C4265208770B000F2379F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8C4265208770B000F2379F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4264208770B000F2379F /* WeatherAndClothes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8C4266208770B000F2379F /* WeatherAndClothes */ = {
+			isa = PBXGroup;
+			children = (
+				CDD40983208A468F00A4135C /* photo */,
+				CD8C4267208770B000F2379F /* AppDelegate.swift */,
+				CD8C4269208770B000F2379F /* ViewController.swift */,
+				CD8C426B208770B000F2379F /* Main.storyboard */,
+				CD8C426E208770B000F2379F /* Assets.xcassets */,
+				CD8C4270208770B000F2379F /* LaunchScreen.storyboard */,
+				CD8C4273208770B000F2379F /* Info.plist */,
+				CDBAA51D2089258C004CFA2F /* FirstShowViewController.swift */,
+				CDBAA51F2089281E004CFA2F /* SecondShowViewController.swift */,
+				CDD40981208A467C00A4135C /* ClothesViewController.swift */,
+			);
+			path = WeatherAndClothes;
+			sourceTree = "<group>";
+		};
+		CDD40983208A468F00A4135C /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9A7A1208C7FE2003448B9 /* weatherClothes.png */,
+				CDD40969208A45F900A4135C /* fall_1.JPG */,
+				CDD4096B208A45F900A4135C /* fall_2.JPG */,
+				CDD40971208A45FA00A4135C /* fall_3.jpg */,
+				CDD4096C208A45F900A4135C /* spring_1.JPG */,
+				CDD4096D208A45F900A4135C /* spring_2.JPG */,
+				CDD4096E208A45F900A4135C /* spring_3.JPG */,
+				CDD4096F208A45FA00A4135C /* summer_1.JPG */,
+				CDD40970208A45FA00A4135C /* summer_2.JPG */,
+				CDD4096A208A45F900A4135C /* summer_3.JPG */,
+				CDD40972208A45FA00A4135C /* winter_1.JPG */,
+				CDD40967208A45F800A4135C /* winter_2.JPG */,
+				CDD40968208A45F800A4135C /* winter_3.JPG */,
+				CDBAA5232089682B004CFA2F /* first_1.JPG */,
+				CD8C427A2087712400F2379F /* photo_0.JPG */,
+				CD8C427B2087712400F2379F /* photo_1.JPG */,
+				CD8C427D2087712400F2379F /* photo_2.JPG */,
+				CD8C427C2087712400F2379F /* photo_3.JPG */,
+				CD8C42792087712400F2379F /* photo_4.JPG */,
+			);
+			name = photo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8C4263208770B000F2379F /* WeatherAndClothes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8C4276208770B000F2379F /* Build configuration list for PBXNativeTarget "WeatherAndClothes" */;
+			buildPhases = (
+				CD8C4260208770B000F2379F /* Sources */,
+				CD8C4261208770B000F2379F /* Frameworks */,
+				CD8C4262208770B000F2379F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherAndClothes;
+			productName = WeatherAndClothes;
+			productReference = CD8C4264208770B000F2379F /* WeatherAndClothes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8C425C208770B000F2379F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SWUCOMPUTER;
+				TargetAttributes = {
+					CD8C4263208770B000F2379F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD8C425F208770B000F2379F /* Build configuration list for PBXProject "WeatherAndClothes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8C425B208770B000F2379F;
+			productRefGroup = CD8C4265208770B000F2379F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8C4263208770B000F2379F /* WeatherAndClothes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8C4262208770B000F2379F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD40976208A45FA00A4135C /* summer_3.JPG in Resources */,
+				CDD40977208A45FA00A4135C /* fall_2.JPG in Resources */,
+				CDD40975208A45FA00A4135C /* fall_1.JPG in Resources */,
+				CD8C42802087712400F2379F /* photo_1.JPG in Resources */,
+				CDD4097E208A45FB00A4135C /* winter_1.JPG in Resources */,
+				CD8C4272208770B000F2379F /* LaunchScreen.storyboard in Resources */,
+				CD8C426F208770B000F2379F /* Assets.xcassets in Resources */,
+				CD8C426D208770B000F2379F /* Main.storyboard in Resources */,
+				CD8C427E2087712400F2379F /* photo_4.JPG in Resources */,
+				CDD4097B208A45FA00A4135C /* summer_1.JPG in Resources */,
+				CDD40978208A45FA00A4135C /* spring_1.JPG in Resources */,
+				CDD40973208A45FA00A4135C /* winter_2.JPG in Resources */,
+				CDD4097A208A45FA00A4135C /* spring_3.JPG in Resources */,
+				CD8C42822087712400F2379F /* photo_2.JPG in Resources */,
+				CD8C427F2087712400F2379F /* photo_0.JPG in Resources */,
+				CD8C42812087712400F2379F /* photo_3.JPG in Resources */,
+				CDBAA5242089682B004CFA2F /* first_1.JPG in Resources */,
+				CDD4097C208A45FB00A4135C /* summer_2.JPG in Resources */,
+				CDD40974208A45FA00A4135C /* winter_3.JPG in Resources */,
+				CDD4097D208A45FB00A4135C /* fall_3.jpg in Resources */,
+				CDD40979208A45FA00A4135C /* spring_2.JPG in Resources */,
+				CDE9A7A2208C7FE2003448B9 /* weatherClothes.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8C4260208770B000F2379F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD40982208A467C00A4135C /* ClothesViewController.swift in Sources */,
+				CDBAA51E2089258C004CFA2F /* FirstShowViewController.swift in Sources */,
+				CDBAA5202089281E004CFA2F /* SecondShowViewController.swift in Sources */,
+				CD8C426A208770B000F2379F /* ViewController.swift in Sources */,
+				CD8C4268208770B000F2379F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD8C426B208770B000F2379F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8C426C208770B000F2379F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD8C4270208770B000F2379F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8C4271208770B000F2379F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8C4274208770B000F2379F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD8C4275208770B000F2379F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8C4277208770B000F2379F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeatherAndClothes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.WeatherAndClothes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8C4278208770B000F2379F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeatherAndClothes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.WeatherAndClothes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8C425F208770B000F2379F /* Build configuration list for PBXProject "WeatherAndClothes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8C4274208770B000F2379F /* Debug */,
+				CD8C4275208770B000F2379F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8C4276208770B000F2379F /* Build configuration list for PBXNativeTarget "WeatherAndClothes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8C4277208770B000F2379F /* Debug */,
+				CD8C4278208770B000F2379F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8C425C208770B000F2379F /* Project object */;
+}
